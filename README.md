@@ -18,6 +18,7 @@ Two datasets were used to build and compare different models:
 2. **New Kaggle Dataset (`stroke_data_kaggle.csv`)**
     - More balanced (with more positive strokes).
     - Richer data.
+   - https://www.kaggle.com/code/chanchal24/stroke-prediction-using-python/input?select=stroke_data.csv
 
 Both datasets contain the following attributes:
 
@@ -38,6 +39,14 @@ Key findings after exploratory data analysis (EDA):
 - **Gender** and **residence type** have minor effects.
 
 The data correlation heatmaps and visual plots confirmed these relationships.
+
+## Note:
+
+In the new Kaggle dataset, stroke cases appear slightly more common among patients without diagnosed heart disease or
+hypertension, which is different from the original dataset's pattern.
+
+This could indicate sample bias, younger stroke cases, or incomplete health history documentation.
+
 
 ---
 
