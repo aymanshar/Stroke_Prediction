@@ -1,15 +1,15 @@
 # Stroke Prediction Project
 
-# Instructor: Hanna Abi Akl
+## Instructor: Hanna Abi Akl
 
-# Program: Applied MSc in Data Analytics / Data Science & AI
+## Program: Applied MSc in Data Analytics / Data Science & AI
 
 Predicting stroke occurrence based on patient information such as age, hypertension, heart disease, BMI, and lifestyle
 factors.
 
 ## Datasets Used
 
-Two datasets were used to build and compare different models:
+Two datasets were used one with few records and one with 40k record from kaggle:
 
 1. **Original Dataset provided with the project(`stroke_data.csv`)**
     - Highly imbalanced (only very few cases were positive strokes).
